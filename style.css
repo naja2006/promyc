@@ -1,0 +1,71 @@
+.title{
+margin-bottom:300px;
+font-family: cursive;
+top: 50%;
+  bottom: initial;         /* reset default bottom positioning */
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+}
+.head{
+    text-align: center;
+}
+.section2{
+    margin-top:100px;
+}
+.para{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.section3{
+    font-family: cursive;
+    margin-top: 100px;
+    padding-left: 80px;
+}
+
+.section4{
+    background-color: beige;
+    padding-top: 50px;
+}
+.sym{
+    font-weight: bold;
+}
+.section6{
+    background-image: url(/assests/images/bgimgpromyc.jpg);
+}
+.baa{
+    padding-top:50px;
+}
+.section7{
+    background-color: beige;
+    padding-top: 50px;
+}
+.main{
+    height: 500px;
+    width: 500px;
+}
+.loo-laa{
+    margin-top:50px;
+    font-family: cursive;
+}
+.end{
+    margin-top:20px;
+}
+ 
+.footer {
+    background-color: #000000;
+}.button1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 80px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
