@@ -1,14 +1,18 @@
 .title{
 margin-bottom:300px;
-font-family: cursive;
 top: 50%;
-  bottom: initial;         /* reset default bottom positioning */
+  bottom: initial;       
   transform: translateY(-50%);
   position: absolute;
   top: 50%;
   text-align: center;
   color: #fff;
   padding: 0 1rem;
+}
+.dodo{
+     font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: italic;
 }
 .head{
     text-align: center;
@@ -21,7 +25,7 @@ top: 50%;
     padding-right: 80px;
 }
 .section3{
-    font-family: cursive;
+    font-family: "Permanent Marker";
     margin-top: 100px;
     padding-left: 80px;
 }
@@ -44,7 +48,8 @@ top: 50%;
     padding-top: 50px;
 }
 .main{
-    height: 500px;
+        object-fit: cover;
+    height: 360px;
     width: 500px;
 }
 .loo-laa{
@@ -57,12 +62,43 @@ top: 50%;
  
 .footer {
     background-color: #000000;
-}.button1 {
+}
+.button1 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 80px;
     border: 1px solid black;
 }
+.navbar-toggler-icon{
+    background-color: white;
+}
+.container{
+    overflow: hidden;
+}
+.pic{
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+}
+.card1{
+    width: 90%;
+}
+.card2{
+    width: 75%;
+    height: 100px;
+}
+.button1{
+width: 100px;
+height: 50px;
+}
+.button1:hover{
+  background-color: gray;
+  color: white;
+}
+.footer-top-border{
+    border-top: 5px solid #28a745;
+}
+
 
 
 
