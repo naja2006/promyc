@@ -9,20 +9,33 @@ top: 50%;
   color: #fff;
   padding: 0 1rem;
 }
-.dodo{
-     font-family: "Permanent Marker", cursive;
-  font-weight: 400;
+.carousel-heading{
+  font-family: "Permanent Marker", cursive;
+  font-weight:200px;
   font-style: italic;
 }
+@media (max-width:768px) {
+    .carousel-heading{
+        font-size: 1.2rem;
+        top: 55%;
+    }
+}
+
 .head{
     text-align: center;
 }
 .section2{
     margin-top:100px;
 }
-.para{
-    padding-left: 80px;
-    padding-right: 80px;
+.carousel-heading2{
+    font-size: 1rem;
+    font-size: clamp(1rem,0.1rem,3rem);
+}
+@media (max-width:768px) {
+    .carousel-heading2{
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 .section3{
     font-family: "Permanent Marker";
@@ -49,8 +62,9 @@ top: 50%;
 }
 .main{
         object-fit: cover;
-    height: 360px;
-    width: 500px;
+    height:250px;
+    width:300px;
+    
 }
 .loo-laa{
     margin-top:50px;
@@ -72,7 +86,7 @@ top: 50%;
 .navbar-toggler-icon{
     background-color: white;
 }
-.container{
+.container,.container-fliud{
     overflow: hidden;
 }
 .pic{
@@ -97,6 +111,9 @@ height: 50px;
 }
 .footer-top-border{
     border-top: 5px solid #28a745;
+}
+nav{
+    overflow: hidden;
 }
 
 
