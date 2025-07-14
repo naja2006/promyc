@@ -28,8 +28,12 @@ top: 50%;
     margin-top:100px;
 }
 .carousel-heading2{
-    font-size: 1rem;
-    font-size: clamp(1rem,0.1rem,3rem);
+    /* font-size: 1rem; */
+    font-size: clamp(1rem, 0.1rem, 3rem);
+    margin-top: clamp(-0.5rem, -2vw, 0rem);
+
+    line-height: 1rem;
+
 }
 @media (max-width:768px) {
     .carousel-heading2{
