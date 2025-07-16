@@ -18,6 +18,8 @@ top: 50%;
     .carousel-heading{
         font-size: 1.2rem;
         top: 55%;
+        margin-top: clamp(-0.6rem, -3vw, 0rem);
+
     }
 }
 
@@ -25,14 +27,17 @@ top: 50%;
     text-align: center;
 }
 .section2{
-    margin-top:100px;
+    margin-top:50px;
+}
+.para{
+    margin-bottom: 50px;
 }
 .carousel-heading2{
     /* font-size: 1rem; */
     font-size: clamp(1rem, 0.1rem, 3rem);
     margin-top: clamp(-0.5rem, -2vw, 0rem);
 
-    line-height: 1rem;
+    line-height: 0.8rem;
 
 }
 @media (max-width:768px) {
@@ -42,7 +47,6 @@ top: 50%;
     }
 }
 .section3{
-    font-family: "Permanent Marker";
     margin-top: 100px;
     padding-left: 80px;
 }
@@ -65,14 +69,15 @@ top: 50%;
     padding-top: 50px;
 }
 .main{
-        object-fit: cover;
+    object-fit: cover;
     height:250px;
-    width:300px;
+    width:250px;
     
 }
 .loo-laa{
     margin-top:50px;
     font-family: cursive;
+    font-family: "Permanent Marker";
 }
 .end{
     margin-top:20px;
@@ -81,12 +86,8 @@ top: 50%;
 .footer {
     background-color: #000000;
 }
-.button1 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 80px;
-    border: 1px solid black;
-}
+
+
 .navbar-toggler-icon{
     background-color: white;
 }
@@ -99,25 +100,61 @@ top: 50%;
     object-fit: contain;
 }
 .card1{
-    width: 90%;
+    width: auto;
 }
-.card2{
-    width: 75%;
-    height: 100px;
-}
-.button1{
-width: 100px;
-height: 50px;
-}
-.button1:hover{
-  background-color: gray;
-  color: white;
-}
+
 .footer-top-border{
     border-top: 5px solid #28a745;
 }
+.footer-img{
+    width: 150px;
+    height: 150px;
+}
 nav{
     overflow: hidden;
+}
+.button-1{
+    background: transparent;
+    color: white;
+    border-color: white;
+    margin-left: 10px;
+}
+.text-1{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+@media (max-width: 600px) {
+  .paragraph,p {
+    font-size: 0.9rem; 
+    line-height: 1.4;   
+    padding: 0 1rem;     
+  }
+}
+.mainlogo{
+    height: 50px;
+    width: 50px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:green; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:orange; 
 }
 
 
