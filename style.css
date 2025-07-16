@@ -89,7 +89,8 @@ top: 50%;
 
 
 .navbar-toggler-icon{
-    background-color: white;
+    background-color:rgb(183, 180, 180);
+    border-radius: 2px;
 }
 .container,.container-fliud{
     overflow: hidden;
